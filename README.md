@@ -24,7 +24,7 @@ var answer = await sozluk.proverb(word);
 
 If you want to find voiceUrl you can simply use:
 ```dart
-var answer = await sozluk.voiceUrl(word);
+var answer = await sozluk.audioUrl(word);
 ```
 
 If you want to get whole json example you can use:
