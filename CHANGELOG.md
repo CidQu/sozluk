@@ -1,3 +1,7 @@
+## 1.0.2
+* Fixed broken example file.
+* Little upgrades
+
 ## 1.0.1
 * Fixed GitHub link.
 * Added Example Page.

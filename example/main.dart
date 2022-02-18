@@ -1,14 +1,14 @@
 import 'package:sozluk/sozluk.dart';
 
-void main(List<String> args) {
+void main() async {
   var sozluk = Sozluk();
   var word = "Dalga";
 
-  var meaning = sozluk.meaning(word);
+  var meaning = await sozluk.meaning(word);
 
-  var proverb = sozluk.proverb(word);
+  var proverb = await sozluk.proverb(word);
 
-  var audio = sozluk.audioUrl(word);
+  var audio = await sozluk.audioUrl(word);
 
   print("Meaning: $meaning");
   print("Proverb: $proverb");
