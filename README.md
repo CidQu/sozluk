@@ -1,39 +1,47 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
 ## Features
+You can use this package to find meanings, proverb and voiceUrl of Turkish Words.
+Or you can simply just get everything in JSON format, that is an option too.
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
+All of our informations comes from official *Turkish Language Society*. You can find legal rights below.
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
+First you need to declare Sozluk in your class.
 ```dart
-const like = 'sample';
+final sozluk = Sozluk();
+
+final word = 'Dalga'; //Ofcourse, you can only use this with Turkish Words.
+```
+
+If you want to find meaning you can simply use:
+```dart
+var answer = await sozluk.meaning(word);
+```
+
+If you want to find proverb you can simply use:
+```dart
+var answer = await sozluk.proverb(word);
+```
+
+If you want to find voiceUrl you can simply use:
+```dart
+var answer = await sozluk.voiceUrl(word);
+```
+
+If you want to get whole json example you can use:
+```dart
+var answer = await sozluk.getJson(word);
+```
+
+There is Turkish Version of this package, you can use it like this:
+```dart
+final sozluk = SozlukTr();
+sozluk.anlam(word);
+sozluk.atasozu(word);
+sozluk.sesUrl(word);
+sozluk.getJson(word);
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+This project built with sozluk.gov.tr API. There is no legal restriction of using API. 
+For any additional information you can contact me through mail. yavuz@cidqu.net

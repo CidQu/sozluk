@@ -1,12 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:turkish_dictionary/turkish_dictionary.dart';
+import 'package:sozluk/sozluk.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+  test('Deneme woooww', () async {
+    final sozluk = Sozluk();
+    var cevap = await sozluk.meaning('yavuz');
+    print(cevap);
   });
 }

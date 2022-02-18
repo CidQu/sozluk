@@ -1,7 +1,6 @@
-name: turkish_dictionary
-description: A new Flutter package project.
-version: 0.0.1
-homepage:
+name: sozluk
+description: Sozluk is a community-driven Turkish dictionary powered by Türk Dil Kurumu.
+version: 1.0.0
 
 environment:
   sdk: ">=2.15.1 <3.0.0"
@@ -10,6 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.4
+
+repository: 'https://github.com/CidQu/sozluk'
+
+homepage: 'https://cidqu.net'
 
 dev_dependencies:
   flutter_test:
