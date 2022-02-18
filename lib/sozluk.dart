@@ -153,7 +153,8 @@ class Sozluk {
     } catch (e) {
       var hata = e.toString();
       if (hata.contains('NoSuchMethodError')) {
-        var sozlukanlam = "ERR-003 - Couldn't find any audio files with this word.";
+        var sozlukanlam =
+            "ERR-003 - Couldn't find any audio files with this word.";
         return sozlukanlam;
       } else {
         var sozlukanlam = e.toString();
