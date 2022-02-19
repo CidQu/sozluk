@@ -2,14 +2,14 @@
 You can use this package to find meanings, proverb and voiceUrl of Turkish Words.
 Or you can simply just get everything in JSON format, that is an option too.
 
-All of our informations comes from official *Turkish Language Society*. You can find legal rights below.
+All of our informations comes from official *Turkish Language Association*. You can find legal rights below.
 ## Usage
 
 First you need to declare Sozluk in your class.
 ```dart
 final sozluk = Sozluk();
 
-final word = 'Dalga'; //Ofcourse, you can only use this with Turkish Words.
+final word = 'Dalga'; //You can only use this with Turkish Words.
 ```
 
 If you want to find meaning you can simply use:

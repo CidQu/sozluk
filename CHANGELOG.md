@@ -1,11 +1,15 @@
+## 1.0.3
+* Fixed grammer issues.
+* Fixed Metadata.
+
 ## 1.0.2
 * Fixed broken example file.
-* Little upgrades
+* Little upgrades.
 
 ## 1.0.1
 * Fixed GitHub link.
 * Added Example Page.
-* Changed 'voiceUrl' to 'audioUrl'
+* Changed 'voiceUrl' to 'audioUrl'.
 * Formatted files.
 
 ## 1.0.0
