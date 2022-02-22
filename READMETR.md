@@ -30,7 +30,7 @@ var answer = await sozluk.atasozu(word);
 
 Herhangi bir kelimenin telafüz ses dosyasını bulmak için sesUrl() fonksiyonunu kullanabilirsiniz. Bu fonksiyon size, gönderdiğiniz kelime'nin Türkçe nasıl telafüz edildiğine dair ses dosyası gönderir. String olarak kelime verip, String olarak url alırsınız. Diğer fonksiyonlardan farklı olarak, bu fonksiyona sadece TDK'da kayıtlı olan kelimeleri gönderebilirsiniz. 'Dalga' kelimesini gönderirseniz bir url karşılığı alırsınız lakin 'Dalg' olarak gönderirseniz hata verecektir veya başka bir ses dosyasını verecektir. Ses dosyası bulma TDK'nın api sisteminde yoktur. Bu sistem url değiştirerek elde edilmiştir, GitHub üzerinden bakabilirsiniz.
 ```dart
-var answer = await sozluk.audioUrl(word);
+var answer = await sozluk.sesUrl(word);
 ```
 
 Eğer yukarıdakilerden farklı olarak tüm JSON dosyasını almak isterseniz getJson() fonksiyonunu kullanabilirsiniz. Bu json dosyası TDK apileri desteklemediği için ses url'si içermemektedir.
