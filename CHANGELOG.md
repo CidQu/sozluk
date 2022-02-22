@@ -1,3 +1,6 @@
+## 1.0.4
+* Added Turkish Language Support
+
 ## 1.0.3
 * Fixed grammer issues.
 * Fixed Metadata.
