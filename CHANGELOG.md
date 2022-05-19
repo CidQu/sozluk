@@ -1,5 +1,7 @@
 ## 1.0.4
-* Added Turkish Language Support
+* Added Turkish Language Support.
+* Fixed README.
+* Added explanations to README file.
 
 ## 1.0.3
 * Fixed grammer issues.
