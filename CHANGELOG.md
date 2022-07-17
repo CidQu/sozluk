@@ -1,3 +1,7 @@
+## 2.0.0
+* Added NPL to check language usage!
+* Check new details on README page.
+
 ## 1.0.4
 * Added Turkish Language Support.
 * Fixed README.
