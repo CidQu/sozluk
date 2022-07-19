@@ -1,3 +1,7 @@
+## 2.0.1
+* Formatted files.
+* Fixed GitHub things.
+
 ## 2.0.0
 * Added NPL to check language usage!
 * Check new details on README page.

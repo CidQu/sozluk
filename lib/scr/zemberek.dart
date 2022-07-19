@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 /// [Sozluk] is a class for making HTTP requests to the ZEMBEREK API.
-class Sozluk { 
+class Sozluk {
   /// [spellingCheck] is a class for making HTTP requests to the ZEMBEREK API using the [word] parameter.
   Future<String> spellingCheck(String word) async {
     try {
@@ -28,7 +28,8 @@ class Sozluk {
   Future<String> generateWord(String sample, String morphemes) async {
     try {
       var url = (Uri.parse('http://213.238.177.122:4567/generate_word'));
-      var res = await http.post(url, body: {'word': sample, 'morphemes': morphemes});
+      var res =
+          await http.post(url, body: {'word': sample, 'morphemes': morphemes});
       var body = res.body;
       var decoded = jsonDecode(body);
       var json = decoded[0];
