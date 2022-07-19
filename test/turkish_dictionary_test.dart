@@ -4,8 +4,8 @@ import 'package:sozluk/sozluk.dart';
 
 void main() {
   test('Deneme woooww', () async {
-    final sozluk = Sozluk();
-    var cevap = await sozluk.meaning('yavuz');
+    final sozluk = Sozluk().zemberek;
+    var cevap = await sozluk.spellingCheck('Dalga');
     print(cevap);
   });
 }

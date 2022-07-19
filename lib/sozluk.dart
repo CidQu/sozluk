@@ -1,4 +1,3 @@
-export 'scr/anlam.dart';
-export 'scr/zemberek.dart';
+export 'birlesim.dart';
 
 //hi! This project made by CidQu.

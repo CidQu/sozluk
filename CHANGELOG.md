@@ -1,6 +1,9 @@
 ## 2.0.0
 * Added NPL to check language usage!
 * Check new details on README page.
+* Removed SozlukTr class.
+* Added full Zemberek support. You can check out Zemberek "ahmetaa/zemberek-nlp"
+* Added second class to make everything simple, but i think i made it more confusing. Anyways, you can use it the same way.
 
 ## 1.0.4
 * Added Turkish Language Support.

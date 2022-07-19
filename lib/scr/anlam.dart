@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-
+/*
 /// [SozlukTr] is a class for making HTTP requests to the SOZLUK API.
 class SozlukTr {
   /// [anlam] is a class for making HTTP requests to the SOZLUK API using the [word] parameter.
@@ -94,6 +94,7 @@ class SozlukTr {
     }
   }
 }
+*/
 
 /// [Sozluk] is a class for making HTTP requests to the SOZLUK API.
 class Sozluk {
