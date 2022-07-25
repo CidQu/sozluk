@@ -1,4 +1,5 @@
 Kütüphane Bağlantısı: [pub.dev](https://pub.dev/packages/sozluk)
+Click this link for Main Readme: [Main README File](https://github.com/CidQu/sozluk/blob/main/README.md)
 
 ## Teknofest
 Bu proje Teknofest Doğal Dil İşleme yarışması kapsamında hazırlanmıştır.
@@ -9,8 +10,6 @@ Proje sunumumuza ulaşmak için: [GoogleDrive](https://bit.ly/3z4ndI4)
 ## Sozluk
 Flutter, TDK Paketi. Bu paketi kullanarak kolayca kelimelerin anlamlarını, atasözlerini, ses dosyalarını bulabilir aynı zamanda da cümle içi kullanımı doğru mu? Alternatif hangi kelimeler kullanılabilir? Gibi bir çok soruya yanıt alabilirsiniz. Bu paket sozluk.gov.tr ve zemberek api'leri kullanılarak yapılmıştır.
 Tüm bilgiler direkt olarak Türk Dil Kurumundan ve Zemberek'ten gelmektedir. Yasal uyarı için aşağıda bulunan ek bilgiler kısmını okuyunuz.
-
-Click this link for Main Readme: [Main README File](https://github.com/CidQu/sozluk/blob/main/README.md)
 
 ## Kullanımı
 
