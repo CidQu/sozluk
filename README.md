@@ -3,7 +3,7 @@ Package Link: https://pub.dev/packages/sozluk
 
 ## Teknofest
 This project built for Teknofest (Açıkhack) NPL tournament.
-To access our presentation: [GoogleDriveTR]https://bit.ly/3z4ndI4
+To access our presentation: [GoogleDriveTR](https://bit.ly/3z4ndI4)
 #acikhack2022tddi
 
 ## Features
