@@ -1,6 +1,7 @@
 import 'package:sozluk/sozluk.dart';
+import 'dart:convert';
 
-void anlam() async {
+void sozluk() async {
   var sozluk = Sozluk().dictionary;
   var word = "Dalga";
   var meaning = await sozluk.meaning(word);
@@ -19,11 +20,8 @@ void main() async {
   var morphemes = "Verb+Fut+Past+A3sg";
 
   var spelling_check = await sozluk.spellingCheck(word);
-
   var generate_word = await sozluk.generateWord(word, morphemes);
-
   var lemmas = await sozluk.lemmas(word);
-
   var spelling_suggestions = await sozluk.spellingSuggestions(word);
 
   print("Spelling Check: $spelling_check");
@@ -39,4 +37,7 @@ void zemberekBackend() async {
   var jsonBody = '{"word": "$word"}';
 
   var response = await sozluk.zemberekAPI(endpoint, jsonBody);
+  var jsonResponse = json.decode(response);
+  var result = jsonResponse['is_correct'];
+  print("Response: $result");
 }

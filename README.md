@@ -1,9 +1,15 @@
-## Features
-You can use this package to find meanings, proverb and voiceUrl of Turkish Words.
-Or you can simply just get everything in JSON format, that is an option too.
-
-All of our informations comes from official *Turkish Language Association*. You can find legal rights below.
 Click this link for Turkish Readme: [Türkçe Sözlük](https://github.com/CidQu/sozluk/blob/main/READMETR.md)
+Package Link: https://pub.dev/packages/sozluk
+
+## Teknofest
+This project built for Teknofest (Açıkhack) NPL tournament.
+To access our presentation: [GoogleDriveTR]https://bit.ly/3z4ndI4
+#acikhack2022tddi
+
+## Features
+You can use this package to find meanings, proverb and voiceUrl of Turkish Words. Or you can check spellings, generate new words, find lemmas and so much more!
+
+All of our informations comes from official *Turkish Language Association* and Zemberek. You can find legal rights below.
 ## Usage
 
 First you need to add sozluk package to your dart file.
