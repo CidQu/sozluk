@@ -1,4 +1,5 @@
 Click this link for Turkish Readme: [Türkçe Sözlük](https://github.com/CidQu/sozluk/blob/main/READMETR.md)
+
 Package Link: https://pub.dev/packages/sozluk
 
 ## Teknofest
