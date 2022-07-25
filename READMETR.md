@@ -1,8 +1,8 @@
-Kütüphane Bağlantısı: [pub.dev]https://pub.dev/packages/sozluk
+Kütüphane Bağlantısı: [pub.dev](https://pub.dev/packages/sozluk)
 
 ## Teknofest
 Bu proje Teknofest Doğal Dil İşleme yarışması kapsamında hazırlanmıştır.
-Proje sunumumuza ulaşmak için: [GoogleDrive]https://bit.ly/3z4ndI4
+Proje sunumumuza ulaşmak için: [GoogleDrive](https://bit.ly/3z4ndI4)
 
 #acikhack2022tddi
 
