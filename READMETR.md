@@ -1,4 +1,5 @@
 Kütüphane Bağlantısı: [pub.dev](https://pub.dev/packages/sozluk)
+
 Click this link for Main Readme: [Main README File](https://github.com/CidQu/sozluk/blob/main/README.md)
 
 ## Teknofest
