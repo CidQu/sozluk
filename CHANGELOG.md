@@ -1,3 +1,6 @@
+## 2.0.4
+* Fixed typos. 
+
 ## 2.0.3
 * Changed READMEs and Added acikhack2022tddi tag to GitHub.
 
