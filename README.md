@@ -1,5 +1,7 @@
 Click this link for Turkish Readme: [Türkçe Sözlük](https://github.com/CidQu/sozluk/blob/main/READMETR.md)
 
+Açıkhack Sunumu: [ACIKHACK](https://github.com/CidQu/sozluk/blob/main/ACIKHACK.md)
+
 Package Link: https://pub.dev/packages/sozluk
 
 ## Teknofest
