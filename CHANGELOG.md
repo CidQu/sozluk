@@ -1,3 +1,6 @@
+## 2.1.1
+Fixed something... Nothing to worry about!
+
 ## 2.1.0
 * Added example app! Checkout example/sozlukdeneme you can see the Example Flutter App!
 * Changed Future Strings to List Dynamic for multiple answers. 
