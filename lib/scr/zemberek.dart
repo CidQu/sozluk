@@ -25,7 +25,7 @@ class Sozluk {
   }
 
   /// [generateWord] is a class for making HTTP requests to the ZEMBEREK API using the [sample] and [morphemes] parameter.
-  Future<String> generateWord(String sample, String morphemes) async {
+  Future<List<dynamic>> generateWord(String sample, String morphemes) async {
     try {
       var url = (Uri.parse('http://213.238.177.122:4567/generate_word'));
       var res =
@@ -39,16 +39,18 @@ class Sozluk {
       var hata = e.toString();
       if (hata.contains('NoSuchMethodError')) {
         var sozlukanlam = "Probably System Error. Open an issue on GitHub.";
-        return sozlukanlam;
+        print(sozlukanlam);
+        return [];
       } else {
         var sozlukanlam = e.toString();
-        return sozlukanlam;
+        print(sozlukanlam);
+        return [];
       }
     }
   }
 
-  /// [lemmas] is a class for making HTTP requests to the ZEMBEREK API using the [word] parameter and print [word] in the console.
-  Future<String> lemmas(String word) async {
+  ///[lemmas] is a class for making HTTP requests to the ZEMBEREK API using the [word] parameter and print [word] in the console.
+  Future<List<dynamic>> lemmas(String word) async {
     try {
       var url = (Uri.parse('http://213.238.177.122:4567/lemmas'));
       var res = await http.post(url, body: {'word': word});
@@ -60,16 +62,18 @@ class Sozluk {
       var hata = e.toString();
       if (hata.contains('NoSuchMethodError')) {
         var sozlukanlam = "Probably System Error. Open an issue on GitHub.";
-        return sozlukanlam;
+        print(sozlukanlam);
+        return [];
       } else {
         var sozlukanlam = e.toString();
-        return sozlukanlam;
+        print(sozlukanlam);
+        return [];
       }
     }
   }
 
   /// [spellingSuggestions] is a class for making HTTP requests to the ZEMBEREK API using the [word] parameter and print [word] in the console.
-  Future<String> spellingSuggestions(String word) async {
+  Future<List<dynamic>> spellingSuggestions(String word) async {
     try {
       var url = (Uri.parse('http://213.238.177.122:4567/spelling_suggestions'));
       var res = await http.post(url, body: {'word': word});
@@ -80,11 +84,12 @@ class Sozluk {
     } catch (e) {
       var hata = e.toString();
       if (hata.contains('NoSuchMethodError')) {
-        var sozlukanlam = "Probably System Error. Open an issue on GitHub.";
-        return sozlukanlam;
+        print("Probably System Error. Open an issue on GitHub.");
+        return [];
       } else {
         var sozlukanlam = e.toString();
-        return sozlukanlam;
+        print(sozlukanlam);
+        return [];
       }
     }
   }

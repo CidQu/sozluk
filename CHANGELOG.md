@@ -1,3 +1,8 @@
+## 2.1.0
+* Added example app! Checkout example/sozlukdeneme you can see the Example Flutter App!
+* Changed Future Strings to List Dynamic for multiple answers. 
+* Fixed bad readme's.
+
 ## 2.0.4
 * Fixed typos. 
 
