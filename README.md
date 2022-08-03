@@ -8,7 +8,7 @@ Package Link: https://pub.dev/packages/sozluk
 This project built for Teknofest (Açıkhack) NPL tournament.
 
 To access our presentation: [GoogleDriveTR](https://bit.ly/3z4ndI4)
-#acikhack2022tddi
+#acikhack2022tddi #Acıkhack2022TDDİ
 
 ## Features
 You can use this package to find meanings, proverb and voiceUrl of Turkish Words. Or you can check spellings, generate new words, find lemmas and so much more!
