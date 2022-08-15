@@ -12,6 +12,7 @@ class Signature extends StatelessWidget {
       '''Made with 💙 by Kanagawa 🌊
       Version: $version''',
       style: TextStyle(fontSize: 10),
+      textAlign: TextAlign.center,
     );
   }
 }
