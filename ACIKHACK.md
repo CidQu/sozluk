@@ -28,10 +28,6 @@ Melisa Bahadır (Sunum, Tasarım)
 
 Tuana Yıldırım (Tasarım)
 
-## Danışman Öğretmen
-
-İbrahim Gür
-
 ## Nasıl Kullanılır?
 
 Öncelikle herhangi bir Flutter projesi oluşturmanız gerekiyor.
