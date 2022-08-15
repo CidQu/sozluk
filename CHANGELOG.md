@@ -1,5 +1,8 @@
+## 2.2.0
+* Added Docker_Commender package for offline usage. You may need to install a docker container before usage. Will fix README soon.
+
 ## 2.1.1
-Fixed something... Nothing to worry about!
+* Fixed something... Nothing to worry about!
 
 ## 2.1.0
 * Added example app! Checkout example/sozlukdeneme you can see the Example Flutter App!

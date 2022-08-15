@@ -1,12 +1,16 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import 'package:sozluk/env.dart';
 
 /// [Sozluk] is a class for making HTTP requests to the ZEMBEREK API.
 class Sozluk {
+  final ipAdresi = env.ipAdresi;
+  final port = env.port;
+
   /// [spellingCheck] is a class for making HTTP requests to the ZEMBEREK API using the [word] parameter.
   Future<String> spellingCheck(String word) async {
     try {
-      var url = (Uri.parse('http://213.238.177.122:4567/spelling_check'));
+      var url = (Uri.parse('$ipAdresi:$port/spelling_check'));
       var res = await http.post(url, body: {'word': word});
       var body = res.body;
       var decoded = jsonDecode(body);
@@ -27,7 +31,7 @@ class Sozluk {
   /// [generateWord] is a class for making HTTP requests to the ZEMBEREK API using the [sample] and [morphemes] parameter.
   Future<List<dynamic>> generateWord(String sample, String morphemes) async {
     try {
-      var url = (Uri.parse('http://213.238.177.122:4567/generate_word'));
+      var url = (Uri.parse('$ipAdresi:$port/generate_word'));
       var res =
           await http.post(url, body: {'word': sample, 'morphemes': morphemes});
       var body = res.body;
@@ -52,7 +56,7 @@ class Sozluk {
   ///[lemmas] is a class for making HTTP requests to the ZEMBEREK API using the [word] parameter and print [word] in the console.
   Future<List<dynamic>> lemmas(String word) async {
     try {
-      var url = (Uri.parse('http://213.238.177.122:4567/lemmas'));
+      var url = (Uri.parse('$ipAdresi:$port/lemmas'));
       var res = await http.post(url, body: {'word': word});
       var body = res.body;
       var decoded = jsonDecode(body);
@@ -75,7 +79,7 @@ class Sozluk {
   /// [spellingSuggestions] is a class for making HTTP requests to the ZEMBEREK API using the [word] parameter and print [word] in the console.
   Future<List<dynamic>> spellingSuggestions(String word) async {
     try {
-      var url = (Uri.parse('http://213.238.177.122:4567/spelling_suggestions'));
+      var url = (Uri.parse('$ipAdresi:$port/spelling_suggestions'));
       var res = await http.post(url, body: {'word': word});
       var body = res.body;
       var decoded = jsonDecode(body);
@@ -97,7 +101,7 @@ class Sozluk {
   /// [zemberekAPI] is a class for making HTTP requests to the ZEMBEREK API using the [endpoint] and [body] parameter.
   Future<String> zemberekAPI(String endpoint, String body) async {
     try {
-      var url = (Uri.parse('http://213.238.177.122:4567/$endpoint'));
+      var url = (Uri.parse('$ipAdresi:$port/$endpoint'));
       var res = await http.post(url, body: body);
       var body1 = res.body;
       var decoded = jsonDecode(body1);
