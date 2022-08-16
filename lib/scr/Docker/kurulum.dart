@@ -12,7 +12,7 @@ class Setup {
       await dockerCommander.checkDaemon();
       var network = await dockerCommander.createNetwork();
       var container = await ZemberekConfig().run(dockerCommander,
-          hostPorts: [4567], network: network, hostname: env.container);
+          network: network, hostname: env.container);
       return 'Zemberek Docker Started';
     } else if (status == 0) {
       var container = dockerCommander.close();
