@@ -11,6 +11,9 @@ To access our presentation: [GoogleDriveTR](https://bit.ly/3z4ndI4)
 #acikhack2022tddi #Acıkhack2022TDDİ
 
 ## Features
+
+https://cdn.discordapp.com/attachments/643901774113275905/1009946098762264688/Screen_Recording_2022-07-31_at_12.04.29.gif
+
 You can use this package to find meanings, proverb and voiceUrl of Turkish Words. Or you can check spellings, generate new words, find lemmas and so much more!
 
 All of our informations comes from official *Turkish Language Association* and Zemberek. You can find legal rights below.
