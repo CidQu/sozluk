@@ -12,8 +12,6 @@ To access our presentation: [GoogleDriveTR](https://bit.ly/3z4ndI4)
 
 ## Features
 
-![Example Gif](example.gif =480x538)
-
 You can use this package to find meanings, proverb and voiceUrl of Turkish Words. Or you can check spellings, generate new words, find lemmas and so much more!
 
 All of our informations comes from official *Turkish Language Association* and Zemberek. You can find legal rights below.
@@ -89,6 +87,9 @@ If you want to get access to whole backend you can use zemberekAPI() function. Y
 ```dart
 var answer = await sozluk.zemberekAPI(endpoint, body);
 ```
+## Gifs
+![Example Gif](example.gif)
+
 
 ## Contributors
 This project is fully open source. You can find this project on [CidQu/sozluk](https://github.com/CidQu/sozluk). If you would like to expend this project you can fork or request a new pull request.
