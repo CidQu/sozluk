@@ -12,7 +12,7 @@ To access our presentation: [GoogleDriveTR](https://bit.ly/3z4ndI4)
 
 ## Features
 
-![Example Gif](example.gif | height=59)
+![Example Gif](example.gif | widht=59)
 
 You can use this package to find meanings, proverb and voiceUrl of Turkish Words. Or you can check spellings, generate new words, find lemmas and so much more!
 
