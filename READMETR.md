@@ -4,7 +4,8 @@ Click this link for Main Readme: [Main README File](https://github.com/CidQu/soz
 
 ## Teknofest
 Bu proje Teknofest Doğal Dil İşleme yarışması kapsamında hazırlanmıştır.
-Proje sunumumuza ulaşmak için: [GoogleDrive](https://bit.ly/3z4ndI4)
+
+Proje sunumumuza ulaşmak için: [Sunum](https://cidqu.net/Son_Sunum.pdf)
 
 #acikhack2022tddi
 
