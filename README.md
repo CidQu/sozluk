@@ -7,8 +7,17 @@ Package Link: https://pub.dev/packages/sozluk
 ## Teknofest
 This project built for Teknofest (Açıkhack) NPL tournament.
 
-To access our presentation: [GoogleDriveTR](https://bit.ly/3z4ndI4)
+To access our presentation: [Sunum](https://cidqu.net/Son_Sunum.pdf)
 #acikhack2022tddi #Acıkhack2022TDDİ
+
+## ACIKHACK
+KANAGAWA TAKIMI 
+
+ACIKHACK README KISMINA ULAŞMAK İÇİN:
+
+Açıkhack Sunumu: [ACIKHACK](https://github.com/CidQu/sozluk/blob/main/ACIKHACK.md)
+
+SUNUM: [Sunum](https://cidqu.net/Son_Sunum.pdf)
 
 ## Features
 
