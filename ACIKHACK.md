@@ -1,5 +1,5 @@
 ## Proje Sunumu
-Proje sunumumuza ulaşmak için: [GoogleDrive](https://bit.ly/3z4ndI4)
+Proje sunumumuza ulaşmak için: [Sunum](https://cidqu.net/Son_Sunum.pdf)
 
 ## Kullanılan Veriler
 
