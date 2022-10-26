@@ -1,23 +1,6 @@
 Click this link for Turkish Readme: [Türkçe Sözlük](https://github.com/CidQu/sozluk/blob/main/READMETR.md)
 
-Açıkhack Sunumu: [ACIKHACK](https://github.com/CidQu/sozluk/blob/main/ACIKHACK.md)
-
 Package Link: https://pub.dev/packages/sozluk
-
-## Teknofest
-This project built for Teknofest (Açıkhack) NPL tournament.
-
-To access our presentation: [Sunum](https://cidqu.net/Son_Sunum.pdf)
-#acikhack2022tddi #Acıkhack2022TDDİ
-
-## ACIKHACK
-KANAGAWA TAKIMI 
-
-ACIKHACK README KISMINA ULAŞMAK İÇİN:
-
-Açıkhack Sunumu: [ACIKHACK](https://github.com/CidQu/sozluk/blob/main/ACIKHACK.md)
-
-SUNUM: [Sunum](https://cidqu.net/Son_Sunum.pdf)
 
 ## Features
 
