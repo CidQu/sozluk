@@ -1,6 +1,6 @@
 name: sozluk
 description: Sozluk is a community-driven Turkish dictionary powered by Turkish Language Association.
-version: 2.2.0
+version: 2.3.0
 
 environment:
   sdk: ">=2.15.1 <3.0.0"
@@ -10,7 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.4
-  docker_commander: ^2.0.15
 
 repository: 'https://github.com/CidQu/sozluk'
 
