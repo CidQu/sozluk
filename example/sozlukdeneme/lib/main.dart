@@ -53,8 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _spellingSuggestions() async {
-    var sonuc =
-        await sozlukZ.spellingSuggestions(textfieldController.text);
+    var sonuc = await sozlukZ.spellingSuggestions(textfieldController.text);
     print(sonuc);
     setState(() {
       string = sonuc[0];

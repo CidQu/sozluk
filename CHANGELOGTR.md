@@ -1,3 +1,8 @@
+## 2.3.0
+* Docker_Command kaldırıldı, beklediğim performansı yakalayamadım.
+* Ip adresleri yenilendi.
+* Küçük hata düzeltmeleri.
+
 ## 2.2.0
 * Docker_Commadn paketi eklendi, bu sayede offline kullanım sağlanmış oldu.
 

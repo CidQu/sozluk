@@ -9,7 +9,7 @@ class Signature extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Text(
-      '''Made with 💙 by Kanagawa 🌊
+      '''Made with 💙 by CidQu 🌊
       Version: $version''',
       style: TextStyle(fontSize: 10),
       textAlign: TextAlign.center,
