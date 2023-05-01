@@ -1,3 +1,6 @@
+# 2.3.1
+* Renewed ip adress with static domain. So it should no longer disapper after long usage. It has SSL as well. 
+
 ## 2.3.0
 * Removed Docker_Commender, because it was not working as I intened.
 * Renewed ip adresses.

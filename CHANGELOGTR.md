@@ -1,3 +1,6 @@
+# 2.3.1
+* ip adresi yerine alan adı ekledim, artık kopmalar yaşanmayacak ve SSL de var.
+
 ## 2.3.0
 * Docker_Command kaldırıldı, beklediğim performansı yakalayamadım.
 * Ip adresleri yenilendi.
