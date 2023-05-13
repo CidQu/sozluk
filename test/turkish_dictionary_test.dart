@@ -5,6 +5,7 @@ import 'package:sozluk/sozluk.dart';
 void main() {
   test('Deneme woooww', () async {
     var sozluk = Sozluk().zemberek;
+    var tdk = Sozluk().dictionary;
     var word = "Dalga";
     var morphemes = "Verb+Fut+Past+A3sg";
 

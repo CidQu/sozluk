@@ -1,4 +1,7 @@
-# 2.3.1
+## 2.4.0
+* Hata düzeltmeleri ve yeni alan adı.
+
+## 2.3.1
 * ip adresi yerine alan adı ekledim, artık kopmalar yaşanmayacak ve SSL de var.
 
 ## 2.3.0

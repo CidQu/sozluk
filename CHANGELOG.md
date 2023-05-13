@@ -1,4 +1,7 @@
-# 2.3.1
+## 2.4.0
+* Bug fixes and new domain.
+
+## 2.3.1
 * Renewed ip adress with static domain. So it should no longer disapper after long usage. It has SSL as well. 
 
 ## 2.3.0
