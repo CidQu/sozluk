@@ -1,3 +1,8 @@
+## 2.5.0
+* Updated package to latest Flutter version
+* Bug fixes
+* Now responses return all the possible outcomes not just the first ones
+
 ## 2.4.0
 * Bug fixes and new domain.
 

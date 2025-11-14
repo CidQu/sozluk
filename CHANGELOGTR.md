@@ -1,3 +1,8 @@
+## 2.5.0
+* Flutter sürümü güncellendi
+* Hata düzeltmeleri
+* Artık fonksiyonlar tüm olağan değerleri döndürüyor. Eskiden sadece ilkini döndürüyordu.
+
 ## 2.4.0
 * Hata düzeltmeleri ve yeni alan adı.
 

@@ -31,12 +31,12 @@ final sozluk = Sozluk().dictionary;
 final word = 'Dalga'; // You can only use this with Turkish Words.
 ```
 
-If you want to find meaning you can simply use meaning() function. You need to provide a String. You will get String as a response.
+If you want to find meaning you can simply use meaning() function. You need to provide a String and you will get a List<String> containing all meanings.
 ```dart
 var answer = await sozluk.meaning(word);
 ```
 
-If you want to find proverb you can simply use proverb() function. You need to provide a String. You will get String as a response.
+If you want to find proverb you can simply use proverb() function. You need to provide a String and you will get a List<String> with all matching proverbs.
 ```dart
 var answer = await sozluk.proverb(word);
 ```

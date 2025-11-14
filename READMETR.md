@@ -31,12 +31,12 @@ final sozluk = Sozluk().dictionary;
 final word = 'Dalga';
 ```
 
-Herhangi bir kelimenin anlamını bulmak için meaning() fonksiyonunu kullanabilirsiniz. Bu fonksiyon size, gönderdiğiniz kelime ile bağdaşan en iyi açıklamayı verecektir. String olarak kelime verip, String olarak kelime alırsınız.
+Herhangi bir kelimenin anlamını bulmak için meaning() fonksiyonunu kullanabilirsiniz. Bu fonksiyon, gönderdiğiniz kelime ile bağdaşan bütün anlamları `List<String>` olarak döndürür.
 ```dart
 var answer = await sozluk.meaning(word);
 ```
 
-Herhangi bir kelimenin atasözünü bulmak için proverb() fonksiyonunu kullanabilirsiniz. Bu fonksiyon size, gönderdiğiniz kelime ile bağdaşan en iyi atasözünü verecektir. Anlam fonksiyonunda olduğu gibi String olarak kelime verip, String olarak kelime alırsınız.
+Herhangi bir kelimenin atasözünü bulmak için proverb() fonksiyonunu kullanabilirsiniz. Bu fonksiyon size, gönderdiğiniz kelime ile bağdaşan tüm atasözlerini `List<String>` olarak verir.
 ```dart
 var answer = await sozluk.proverb(word);
 ```

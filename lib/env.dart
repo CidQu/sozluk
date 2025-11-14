@@ -1,5 +1,5 @@
 class env {
-  static String ipAdresi = "http://zemberek.api.cidqu.net";
+  static String ipAdresi = "https://zemberek.api.cidqu.net";
   static String port = '4567';
 
   static String creator = 'CidQu';

@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _spellingCheck() async {
     var sonuc = await sozlukZ.spellingCheck(textfieldController.text);
-    print(sonuc);
+    debugPrint('$sonuc');
     setState(() {
       string = sonuc;
     });
@@ -54,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _spellingSuggestions() async {
     var sonuc = await sozlukZ.spellingSuggestions(textfieldController.text);
-    print(sonuc);
+    debugPrint('$sonuc');
     setState(() {
       string = sonuc[0];
     });
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _lemmas() async {
     var sonuc = await sozlukZ.lemmas(textfieldController.text);
-    print(sonuc);
+    debugPrint('$sonuc');
     setState(() {
       string = sonuc[0];
     });
@@ -70,23 +70,23 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _meaning() async {
     var sonuc = await sozlukD.meaning(textfieldController.text);
-    print(sonuc);
+    debugPrint('$sonuc');
     setState(() {
-      string = sonuc;
+      string = sonuc.isNotEmpty ? sonuc[0] : 'Bulunamadı';
     });
   }
 
   void _proverb() async {
     var sonuc = await sozlukD.proverb(textfieldController.text);
-    print(sonuc);
+    debugPrint('$sonuc');
     setState(() {
-      string = sonuc;
+      string = sonuc.isNotEmpty ? sonuc[0] : 'Bulunamadı';
     });
   }
 
   void audioUrl() async {
     var sonuc = await sozlukD.audioUrl(textfieldController.text);
-    print(sonuc);
+    debugPrint('$sonuc');
     setState(() {
       string = sonuc;
     });

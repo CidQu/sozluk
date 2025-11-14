@@ -1,17 +1,19 @@
-import 'package:sozluk/sozluk.dart';
 import 'dart:convert';
+
+import 'package:flutter/foundation.dart';
+import 'package:sozluk/sozluk.dart';
 
 void sozluk() async {
   var sozluk = Sozluk().dictionary;
   var word = "Dalga";
-  var meaning = await sozluk.meaning(word);
+  var meanings = await sozluk.meaning(word);
 
-  var proverb = await sozluk.proverb(word);
+  var proverbs = await sozluk.proverb(word);
 
   var audio = await sozluk.audioUrl(word);
-  print("Meaning: $meaning");
-  print("Proverb: $proverb");
-  print("Audio: $audio");
+  debugPrint("Meanings: $meanings");
+  debugPrint("Proverbs: $proverbs");
+  debugPrint("Audio: $audio");
 }
 
 void main() async {
@@ -24,10 +26,10 @@ void main() async {
   var lemmas = await sozluk.lemmas(word);
   var spelling_suggestions = await sozluk.spellingSuggestions(word);
 
-  print("Spelling Check: $spelling_check");
-  print("Generate Word: $generate_word");
-  print("Lemmas: $lemmas");
-  print("Spelling Suggestions: $spelling_suggestions");
+  debugPrint("Spelling Check: $spelling_check");
+  debugPrint("Generate Word: $generate_word");
+  debugPrint("Lemmas: $lemmas");
+  debugPrint("Spelling Suggestions: $spelling_suggestions");
 }
 
 void zemberekBackend() async {
@@ -39,5 +41,5 @@ void zemberekBackend() async {
   var response = await sozluk.zemberekAPI(endpoint, jsonBody);
   var jsonResponse = json.decode(response);
   var result = jsonResponse['is_correct'];
-  print("Response: $result");
+  debugPrint("Response: $result");
 }
