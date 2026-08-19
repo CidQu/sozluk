@@ -1,10 +1,12 @@
+
+
 Click this link for Turkish Readme: [Türkçe Sözlük](https://github.com/CidQu/sozluk/blob/main/READMETR.md)
 
 Package Link: https://pub.dev/packages/sozluk
 
 ## Features
 
-You can use this package to find meanings, proverb and voiceUrl of Turkish Words. Or you can check spellings, generate new words, find lemmas and so much more!
+You can use this package to find meanings, proverb and audioUrl of Turkish Words. Or you can check spellings, generate new words, find lemmas and so much more!
 
 All of our informations comes from official *Turkish Language Association* and Zemberek. You can find legal rights below.
 ## Usage
